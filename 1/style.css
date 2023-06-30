@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(math.jpg);
+    background-size: cover;
+}
+input[type="text"]{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    border: black solid 2px;
+    border-radius:5px;
+    font-size: 30px;
+}
+div{
+    width: 50%;
+    margin:auto;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 100px;
+    border-radius:10px;
+    border: white solid 5px;
+    height: 710px;
+    
+}
+button{
+    width: calc(95%/4);
+    float: left;
+    margin-left: 1%;
+    height: 100px;
+    margin-top: 10px;
+    cursor:pointer;
+    font-size: 30px;
+    border-radius:5px;
+}
+
+h1{
+    text-transform:uppercase;
+    font-size: 20px;
+    font-family:BlinkMacSystemFont, 'Segoe UI';
+    color: white;
+    letter-spacing: 10px;
+}
+.op{
+    background-color:rgb(211, 206, 206);
+}
+.rachid1{
+    font-family:'Times New Roman', Times, serif
+}
+#rachid{
+    width:calc((98%/4)*3);
+}
+@media  (max-width:950px){
+    div{
+        width: 80%;
+    }
+}
+@media  (max-width:860px){
+    div{
+        width: 80%;
+    }
+}
+@media  (max-width:600px){
+    div{
+        width: 90%;
+        margin-top: 80px;
+        height: 580px;
+    }
+    button{
+        height: 70px;
+    }
+}
+@media  (max-width:500px){
+    div{
+        width: 90%;
+        margin-top: 60px;
+        height: 460px;
+    }
+    button{
+        width: calc(95%/4);
+        font-size: 17px;
+        height: 50px;
+    }
+    h1{
+        font-size: 15px;
+        letter-spacing: 5px;
+    }
+}

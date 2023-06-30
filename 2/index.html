@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="darck-body" id="theme">
+
+    <header>
+        <nav>
+            <ul>
+                <li class="light-li li" onclick="google()">google</li>
+                <li class="light-li li" onclick="ebay()">ebay</li>
+                <li class="light-li li" onclick="youtube()">youtube</li>
+                <li class="light-li li" onclick="amazon()">amazon</li>
+              </ul> 
+           <p class="clear"></p>
+        </nav>
+        <div id="mode">
+            <div class='theme light-body' onclick='light()'> light theme</div>
+        </div>
+    </header>
+    <section>
+        <div class="main">
+            <div id="image">
+                <img src='img/youtube.png' alt='youtube' class='youtube'>
+            </div>
+            <div class="search"><input type="search" placeholder=" Search" onmouseout="Search1()" id="link"></div>
+            <div id="links" onmouseout="Search1()">
+                <a href="youtube.com" target="blank" id="link" ><button>Search</button></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
